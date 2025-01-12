@@ -1,18 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Portugal</title>
-  <style>
-.bodycolor {
-  background-color:turqoise;
-}
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portugal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2e6c8d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #2e6c8d;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            margin: 20px;
+        }
+        h2 {
+            color: #2e6c8d;
+        }
+        footer {
+            background-color: #2e6c8d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .info {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
-<body class="bodycolor">
- 
-  <a href="index.html"> Go back to the index page </a>
+<body>
+    <header>
+        <h1>Welcome to Portugal!</h1>
+        <p>Explore this beautiful country in Europe</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About Portugal</a>
+        <a href="#culture">Culture</a>
+        <a href="#tourism">Tourism</a>
+        <a href="#food">Food</a>
+    </nav>
+    
+    <div class="content">
+        <section id="about" class="info">
+            <h2>About Portugal</h2>
+            <p>Portugal is a country located in the southwestern part of Europe. It shares a border with Spain and is surrounded by the Atlantic Ocean. The capital of Portugal is Lisbon.</p>
+        </section>
 
+        <section id="culture" class="info">
+            <h2>Culture of Portugal</h2>
+            <p>Portugal has a rich culture, known for its traditional music (Fado), dance, and famous azulejos (decorative ceramic tiles). The Portuguese people are friendly and proud of their heritage.</p>
+        </section>
+
+        <section id="tourism" class="info">
+            <h2>Tourism in Portugal</h2>
+            <p>Portugal is known for its beautiful beaches, historical cities like Lisbon and Porto, and the amazing Douro Valley. Tourists come from all over the world to enjoy Portugal's natural beauty and historic sites.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Cabo_da_Roca_4.jpg" alt="Beautiful Landscape in Portugal">
+        </section>
+
+        <section id="food" class="info">
+            <h2>Portuguese Food</h2>
+            <p>Portuguese cuisine includes delicious dishes like bacalhau (salted codfish), pastel de nata (custard tart), and Portuguese wine. The food is often fresh and flavorful.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Learn About Portugal</p>
+    </footer>
 </body>
-
-
 </html>
